@@ -17,7 +17,7 @@ stages:
 # Refering the pipeline template, input parameter that are not specified will be added with defaults
 - template: ./pipeline_templates/main_template.yaml
   parameters:
-    serviceConnectionName: azuredevops_service_connection
+    serviceConnectionName: eks-conection-azure
     awsRegion: eu-west-1
     awsEKSClusterName: sandbox
     projectName: webapp
